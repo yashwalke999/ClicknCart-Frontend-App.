@@ -1,0 +1,7 @@
+
+version: '3'
+services:
+  ecommerce-frontend-web-app-container:
+    image: yashw/ecommerce-frontend-web-app
+    ports:
+      - 4200:4200
